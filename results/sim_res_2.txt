@@ -99,63 +99,36 @@ State monitor [drive]: done
 Network connections: done
 
  >  Starting simulation...
-WARNING    The expression "29 / 10" divides two integer values. In previous versions of Brian, this would have used either an integer ("flooring") or a floating point division, depending on the Python version and the code generation target. In the current version, it always uses a floating point division. Explicitly ask for an  integer division ("//"), or turn one of the operands into a floating point value (e.g. replace "1/2" by "1.0/2") to no longer receive this warning. [brian2.parsing.bast.floating_point_division]
-WARNING    The expression "29 / 5" divides two integer values. In previous versions of Brian, this would have used either an integer ("flooring") or a floating point division, depending on the Python version and the code generation target. In the current version, it always uses a floating point division. Explicitly ask for an  integer division ("//"), or turn one of the operands into a floating point value (e.g. replace "1/2" by "1.0/2") to no longer receive this warning. [brian2.parsing.bast.floating_point_division]
-WARNING    The expression "(- 29) / 10" divides two integer values. In previous versions of Brian, this would have used either an integer ("flooring") or a floating point division, depending on the Python version and the code generation target. In the current version, it always uses a floating point division. Explicitly ask for an  integer division ("//"), or turn one of the operands into a floating point value (e.g. replace "1/2" by "1.0/2") to no longer receive this warning. [brian2.parsing.bast.floating_point_division]
-WARNING    The expression "1 / 20" divides two integer values. In previous versions of Brian, this would have used either an integer ("flooring") or a floating point division, depending on the Python version and the code generation target. In the current version, it always uses a floating point division. Explicitly ask for an  integer division ("//"), or turn one of the operands into a floating point value (e.g. replace "1/2" by "1.0/2") to no longer receive this warning. [brian2.parsing.bast.floating_point_division]
-WARNING    The expression "10 / 3" divides two integer values. In previous versions of Brian, this would have used either an integer ("flooring") or a floating point division, depending on the Python version and the code generation target. In the current version, it always uses a floating point division. Explicitly ask for an  integer division ("//"), or turn one of the operands into a floating point value (e.g. replace "1/2" by "1.0/2") to no longer receive this warning. [brian2.parsing.bast.floating_point_division]
-WARNING    The expression "(- 7) / 2" divides two integer values. In previous versions of Brian, this would have used either an integer ("flooring") or a floating point division, depending on the Python version and the code generation target. In the current version, it always uses a floating point division. Explicitly ask for an  integer division ("//"), or turn one of the operands into a floating point value (e.g. replace "1/2" by "1.0/2") to no longer receive this warning. [brian2.parsing.bast.floating_point_division]
-WARNING    The expression "(- 10) / 3" divides two integer values. In previous versions of Brian, this would have used either an integer ("flooring") or a floating point division, depending on the Python version and the code generation target. In the current version, it always uses a floating point division. Explicitly ask for an  integer division ("//"), or turn one of the operands into a floating point value (e.g. replace "1/2" by "1.0/2") to no longer receive this warning. [brian2.parsing.bast.floating_point_division]
-WARNING    The expression "1 / 18" divides two integer values. In previous versions of Brian, this would have used either an integer ("flooring") or a floating point division, depending on the Python version and the code generation target. In the current version, it always uses a floating point division. Explicitly ask for an  integer division ("//"), or turn one of the operands into a floating point value (e.g. replace "1/2" by "1.0/2") to no longer receive this warning. [brian2.parsing.bast.floating_point_division]
-WARNING    The expression "11 / 20" divides two integer values. In previous versions of Brian, this would have used either an integer ("flooring") or a floating point division, depending on the Python version and the code generation target. In the current version, it always uses a floating point division. Explicitly ask for an  integer division ("//"), or turn one of the operands into a floating point value (e.g. replace "1/2" by "1.0/2") to no longer receive this warning. [brian2.parsing.bast.floating_point_division]
-WARNING    The expression "(- 11) / 20" divides two integer values. In previous versions of Brian, this would have used either an integer ("flooring") or a floating point division, depending on the Python version and the code generation target. In the current version, it always uses a floating point division. Explicitly ask for an  integer division ("//"), or turn one of the operands into a floating point value (e.g. replace "1/2" by "1.0/2") to no longer receive this warning. [brian2.parsing.bast.floating_point_division]
-WARNING    The expression "1 / 80" divides two integer values. In previous versions of Brian, this would have used either an integer ("flooring") or a floating point division, depending on the Python version and the code generation target. In the current version, it always uses a floating point division. Explicitly ask for an  integer division ("//"), or turn one of the operands into a floating point value (e.g. replace "1/2" by "1.0/2") to no longer receive this warning. [brian2.parsing.bast.floating_point_division]
-WARNING    The expression "(- 19) / 9" divides two integer values. In previous versions of Brian, this would have used either an integer ("flooring") or a floating point division, depending on the Python version and the code generation target. In the current version, it always uses a floating point division. Explicitly ask for an  integer division ("//"), or turn one of the operands into a floating point value (e.g. replace "1/2" by "1.0/2") to no longer receive this warning. [brian2.parsing.bast.floating_point_division]
-WARNING    The expression "(- 13) / 50" divides two integer values. In previous versions of Brian, this would have used either an integer ("flooring") or a floating point division, depending on the Python version and the code generation target. In the current version, it always uses a floating point division. Explicitly ask for an  integer division ("//"), or turn one of the operands into a floating point value (e.g. replace "1/2" by "1.0/2") to no longer receive this warning. [brian2.parsing.bast.floating_point_division]
-WARNING    The expression "(- 15) / 28" divides two integer values. In previous versions of Brian, this would have used either an integer ("flooring") or a floating point division, depending on the Python version and the code generation target. In the current version, it always uses a floating point division. Explicitly ask for an  integer division ("//"), or turn one of the operands into a floating point value (e.g. replace "1/2" by "1.0/2") to no longer receive this warning. [brian2.parsing.bast.floating_point_division]
-WARNING    The expression "1 / 50" divides two integer values. In previous versions of Brian, this would have used either an integer ("flooring") or a floating point division, depending on the Python version and the code generation target. In the current version, it always uses a floating point division. Explicitly ask for an  integer division ("//"), or turn one of the operands into a floating point value (e.g. replace "1/2" by "1.0/2") to no longer receive this warning. [brian2.parsing.bast.floating_point_division]
-WARNING    The expression "(- 21) / 2" divides two integer values. In previous versions of Brian, this would have used either an integer ("flooring") or a floating point division, depending on the Python version and the code generation target. In the current version, it always uses a floating point division. Explicitly ask for an  integer division ("//"), or turn one of the operands into a floating point value (e.g. replace "1/2" by "1.0/2") to no longer receive this warning. [brian2.parsing.bast.floating_point_division]
-WARNING    The expression "(- 75) / 17" divides two integer values. In previous versions of Brian, this would have used either an integer ("flooring") or a floating point division, depending on the Python version and the code generation target. In the current version, it always uses a floating point division. Explicitly ask for an  integer division ("//"), or turn one of the operands into a floating point value (e.g. replace "1/2" by "1.0/2") to no longer receive this warning. [brian2.parsing.bast.floating_point_division]
-WARNING    The expression "1 / 17" divides two integer values. In previous versions of Brian, this would have used either an integer ("flooring") or a floating point division, depending on the Python version and the code generation target. In the current version, it always uses a floating point division. Explicitly ask for an  integer division ("//"), or turn one of the operands into a floating point value (e.g. replace "1/2" by "1.0/2") to no longer receive this warning. [brian2.parsing.bast.floating_point_division]
-WARNING    The expression "(- 9) / 8" divides two integer values. In previous versions of Brian, this would have used either an integer ("flooring") or a floating point division, depending on the Python version and the code generation target. In the current version, it always uses a floating point division. Explicitly ask for an  integer division ("//"), or turn one of the operands into a floating point value (e.g. replace "1/2" by "1.0/2") to no longer receive this warning. [brian2.parsing.bast.floating_point_division]
-WARNING    The expression "1 / 40" divides two integer values. In previous versions of Brian, this would have used either an integer ("flooring") or a floating point division, depending on the Python version and the code generation target. In the current version, it always uses a floating point division. Explicitly ask for an  integer division ("//"), or turn one of the operands into a floating point value (e.g. replace "1/2" by "1.0/2") to no longer receive this warning. [brian2.parsing.bast.floating_point_division]
-WARNING    The expression "7 / 4" divides two integer values. In previous versions of Brian, this would have used either an integer ("flooring") or a floating point division, depending on the Python version and the code generation target. In the current version, it always uses a floating point division. Explicitly ask for an  integer division ("//"), or turn one of the operands into a floating point value (e.g. replace "1/2" by "1.0/2") to no longer receive this warning. [brian2.parsing.bast.floating_point_division]
-WARNING    The expression "(- 7) / 4" divides two integer values. In previous versions of Brian, this would have used either an integer ("flooring") or a floating point division, depending on the Python version and the code generation target. In the current version, it always uses a floating point division. Explicitly ask for an  integer division ("//"), or turn one of the operands into a floating point value (e.g. replace "1/2" by "1.0/2") to no longer receive this warning. [brian2.parsing.bast.floating_point_division]
 WARNING    Came across an abstract code block that may not be well-defined: the outcome may depend on the order of execution. You can ignore this warning if you are sure that the order of operations does not matter. Abstract code: "ThetaPreInput_post = Theta_pre"
  [brian2.codegen.generators.base]
 Starting simulation at t=0. s for a duration of 2. s
-85.4 ms (4%) simulated in 10s, estimated 3m 44s remaining.
-170.4 ms (8%) simulated in 20s, estimated 3m 35s remaining.
-255.9 ms (12%) simulated in 30s, estimated 3m 25s remaining.
-0.3412 s (17%) simulated in 40s, estimated 3m 15s remaining.
-0.4249 s (21%) simulated in 50s, estimated 3m 5s remaining.
-0.5102 s (25%) simulated in 1m 0s, estimated 2m 55s remaining.
-0.5956 s (29%) simulated in 1m 10s, estimated 2m 45s remaining.
-0.6809 s (34%) simulated in 1m 20s, estimated 2m 35s remaining.
-0.7658 s (38%) simulated in 1m 30s, estimated 2m 25s remaining.
-0.8476 s (42%) simulated in 1m 40s, estimated 2m 16s remaining.
-0.9323 s (46%) simulated in 1m 50s, estimated 2m 6s remaining.
-1.0191 s (50%) simulated in 2m 0s, estimated 1m 56s remaining.
-1.1041 s (55%) simulated in 2m 10s, estimated 1m 46s remaining.
-1.1888 s (59%) simulated in 2m 20s, estimated 1m 36s remaining.
-1.2748 s (63%) simulated in 2m 30s, estimated 1m 25s remaining.
-1.3594 s (67%) simulated in 2m 40s, estimated 1m 15s remaining.
-1.4466 s (72%) simulated in 2m 50s, estimated 1m 5s remaining.
-1.5321 s (76%) simulated in 3m 0s, estimated 55s remaining.
-1.6155 s (80%) simulated in 3m 10s, estimated 45s remaining.
-1.6908 s (84%) simulated in 3m 20s, estimated 37s remaining.
-1.7731 s (88%) simulated in 3m 30s, estimated 27s remaining.
-1.8592 s (92%) simulated in 3m 40s, estimated 17s remaining.
-1.9452 s (97%) simulated in 3m 50s, estimated 6s remaining.
-2. s (100%) simulated in 3m 56s
+106.8 ms (5%) simulated in 10s, estimated 2m 57s remaining.
+215.4 ms (10%) simulated in 20s, estimated 2m 46s remaining.
+0.3257 s (16%) simulated in 30s, estimated 2m 34s remaining.
+0.432 s (21%) simulated in 40s, estimated 2m 25s remaining.
+0.5402 s (27%) simulated in 50s, estimated 2m 15s remaining.
+0.6515 s (32%) simulated in 1m 0s, estimated 2m 4s remaining.
+0.7593 s (37%) simulated in 1m 10s, estimated 1m 54s remaining.
+0.8582 s (42%) simulated in 1m 20s, estimated 1m 46s remaining.
+0.9655 s (48%) simulated in 1m 30s, estimated 1m 36s remaining.
+1.077 s (53%) simulated in 1m 40s, estimated 1m 26s remaining.
+1.1856 s (59%) simulated in 1m 50s, estimated 1m 16s remaining.
+1.2978 s (64%) simulated in 2m 0s, estimated 1m 5s remaining.
+1.4063 s (70%) simulated in 2m 10s, estimated 55s remaining.
+1.5167 s (75%) simulated in 2m 20s, estimated 45s remaining.
+1.6236 s (81%) simulated in 2m 30s, estimated 35s remaining.
+1.706 s (85%) simulated in 2m 40s, estimated 28s remaining.
+1.8132 s (90%) simulated in 2m 50s, estimated 18s remaining.
+1.9234 s (96%) simulated in 3m 0s, estimated 7s remaining.
+2. s (100%) simulated in 3m 7s
 Simulation ended
-Simulation ran for 6.012314363320669 minutes
+Simulation ran for 5.546296187241873 minutes
 Profiling summary
 =================
-EC_pyCAN_stateupdater     68.14 s    28.88 %
-DG_py_stateupdater        58.07 s    24.61 %
-CA1_pyCAN_stateupdater    57.84 s    24.51 %
-CA3_pyCAN_stateupdater     6.09 s     2.58 %
+EC_pyCAN_stateupdater     40.79 s    21.89 %
+CA1_pyCAN_stateupdater    33.14 s    17.79 %
+DG_py_stateupdater        30.47 s    16.35 %
+statemonitor_4            13.85 s     7.43 %
 
 Saving figure 'figures/Raster_offset_0.79.png'
 Saving figure 'figures/Kuramoto_rhythms_offset_0.79.png'
