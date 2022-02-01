@@ -1,0 +1,183 @@
+INFO       Cache size for target "cython": 5002 MB.
+You can call "clear_cache('cython')" to delete all files from the cache or manually delete files in the "/home/nvardala/.cython/brian_extensions" directory. [brian2]
+Using "configs/5_nA/off15.json"
+seed_val        : 42
+areas           : {'EC': {'E': {'N': 10000, 'type': 'PyCAN', 'noise': 0.0001}, 'I': {'N': 1000, 'type': 'Inh', 'noise': 1e-06}}, 'DG': {'E': {'N': 10000, 'type': 'Py', 'noise': 0.0001}, 'I': {'N': 100, 'type': 'Inh', 'noise': 1e-06}}, 'CA3': {'E': {'N': 1000, 'type': 'PyCAN', 'noise': 0.0001}, 'I': {'N': 100, 'type': 'Inh', 'noise': 1e-06}}, 'CA1': {'E': {'N': 10000, 'type': 'PyCAN', 'noise': 0.0001}, 'I': {'N': 1000, 'type': 'Inh', 'noise': 1e-06}}}
+Kuramoto        : {'N': 100, 'f0': 4.0, 'sigma': 0.5, 'kN': 20, 'gain': 10, 'offset': -1.5707963267948966}
+connectivity    : {'intra': {'EC': [[0.0, 0.37], [0.54, 0.0]], 'DG': [[0.0, 0.06], [0.14, 0.0]], 'CA3': [[0.56, 0.75], [0.75, 0.0]], 'CA1': [[0.0, 0.28], [0.3, 0.7]]}, 'inter': {'p_tri': 0.45, 'p_mono': 0.2}}
+synapses        : {'gmax_e': 600.0, 'gmax_i': 60.0}
+stimulation     : {'target': 'CA1', 'coordinates': [5.0, -8.0, 7.5], 'rho': 1.0, 'duration': 2.0, 'dt': 0.0001, 'onset': 1.175, 'I': [5.0], 'pulse_width': [0.001], 'stim_freq': 5, 'pulse_freq': 100, 'nr_of_trains': 1, 'nr_of_pulses': 1, 'ipi': 0.0001}
+simulation      : {'debugging': False, 'duration': 2000.0, 'dt': 0.0001}
+git_short_hash  : 54f8493
+timestamp       : Fri Jan  7 16:30:33 2022
+git_branch      : dist_based_stim
+git_hash        : 54f84930f30029df0dc780cf4e318e3b5ff83de2
+
+Making directory results/5_nA/-1.57_1175.0_ms/
+Making directory results/5_nA/-1.57_1175.0_ms/figures/
+Making directory results/5_nA/-1.57_1175.0_ms/data/
+Making directory results/5_nA/-1.57_1175.0_ms/data/positions/
+Making directory results/5_nA/-1.57_1175.0_ms/data/spikes/
+
+ >  Making the neuron groups...
+EC: done
+DG: done
+CA3: done
+CA1: done
+Stimulation applied @ CA1_pyCAN
+Stimulation applied @ CA1_inh
+Intra-region distances:
+EC_pyCAN   pdist: (2.4035098378781212e-05 , 0.016050529300649947)
+	x ---> (0.0019910553002398315       , 0.007082325833179037        )
+	y ---> (-0.009066744716285971       , -0.004071151189282601       )
+	z ---> (1.7452133049315657e-07      , 0.014995765099291958        )
+
+EC_inh     pdist: (4.4092430205867414e-05 , 0.015573784686829103)
+	x ---> (0.0020174505013635415       , 0.006216100342369738        )
+	y ---> (-0.008361849436467193       , -0.004746556203801932       )
+	z ---> (1.4145637912356008e-05      , 0.014995098078631384        )
+
+DG_py      pdist: (1.4522941194132967e-05 , 0.015323869286152706)
+	x ---> (0.0032272894220337577       , 0.0065816308556061465       )
+	y ---> (-0.002959837867171013       , -0.0012617013476542112      )
+	z ---> (2.3661686708511935e-06      , 0.014998872402497648        )
+
+DG_inh     pdist: (0.0001170498746589874 , 0.014906839098487406)
+	x ---> (0.0031182850886006513       , 0.006739500499680678        )
+	y ---> (-0.0031518831111103205      , -0.0012257340248417426      )
+	z ---> (0.00014990662287856193      , 0.014998514655138474        )
+
+CA3_pyCAN  pdist: (2.6884690713923335e-05 , 0.014996401665048498)
+	x ---> (0.00404545633401838         , 0.005349157074632828        )
+	y ---> (-0.0017583736963464934      , -0.00021887308837331126     )
+	z ---> (7.218584146763415e-07       , 0.01499484463434508         )
+
+CA3_inh    pdist: (0.00011144334328864248 , 0.014740811361482874)
+	x ---> (0.004198882727303304        , 0.0055068639738442005       )
+	y ---> (-0.0017456949863906839      , -8.803822827256777e-05      )
+	z ---> (0.00022759476257752168      , 0.01496073740738054         )
+
+CA1_pyCAN  pdist: (2.1577649851986693e-05 , 0.015496323628935904)
+	x ---> (0.00038843249894320237      , 0.003776467245044689        )
+	y ---> (-0.004390588029247968       , -0.0002293626295763098      )
+	z ---> (1.01246469861677e-06        , 0.014995981264435085        )
+
+CA1_inh    pdist: (4.3615880079115516e-05 , 0.015481691442570061)
+	x ---> (2.09477636898017e-05        , 0.003766237351302394        )
+	y ---> (-0.00461521306281687        , -1.851913208108108e-05      )
+	z ---> (1.2219259631323464e-05      , 0.014979143851695007        )
+
+
+ >  Making the synapses...
+     * intra-region
+EC-to-EC: done
+DG-to-DG: done
+CA3-to-CA3: done
+CA1-to-CA1: done
+     * inter-region
+EC-to-all: done
+DG-to-CA3: done
+CA3-to-CA1: done
+CA1-to-EC: done
+
+ >  Monitors...
+State monitors [v]: done
+Spike monitors: done
+Rate monitors: done
+
+ >  Inputs and Stimulation...
+Stimulation ON
+
+ >  Kuramoto Oscillators...
+Group: done
+Synapses: done
+Order parameter group: done
+
+ >  Spikes-to-Rates Filter...
+Group: done
+
+ >  Connections...
+CA1-to-S2R: done
+Linking S2R to Kuramoto oscillators: done
+
+ >  Kuramoto and Filter Monitors...
+State monitor [Theta]: done
+State monitor [drive]: done
+
+ >  Connecting the network...
+Network groups: done
+Network connections: done
+Network monitors: done
+
+ >  Starting simulation...
+WARNING    Came across an abstract code block that may not be well-defined: the outcome may depend on the order of execution. You can ignore this warning if you are sure that the order of operations does not matter. Abstract code: "ThetaPreInput_post = Theta_pre"
+ [brian2.codegen.generators.base]
+Starting simulation at t=0. s for a duration of 2. s
+33.1 ms (1%) simulated in 10s, estimated 9m 56s remaining.
+65.3 ms (3%) simulated in 20s, estimated 9m 54s remaining.
+97.8 ms (4%) simulated in 30s, estimated 9m 44s remaining.
+128.5 ms (6%) simulated in 40s, estimated 9m 44s remaining.
+160.6 ms (8%) simulated in 50s, estimated 9m 33s remaining.
+191.6 ms (9%) simulated in 1m 0s, estimated 9m 27s remaining.
+220.4 ms (11%) simulated in 1m 10s, estimated 9m 26s remaining.
+252.1 ms (12%) simulated in 1m 20s, estimated 9m 15s remaining.
+284.1 ms (14%) simulated in 1m 30s, estimated 9m 4s remaining.
+0.3169 s (15%) simulated in 1m 40s, estimated 8m 52s remaining.
+0.3497 s (17%) simulated in 1m 50s, estimated 8m 40s remaining.
+0.3827 s (19%) simulated in 2m 0s, estimated 8m 28s remaining.
+0.4112 s (20%) simulated in 2m 10s, estimated 8m 23s remaining.
+0.4438 s (22%) simulated in 2m 20s, estimated 8m 12s remaining.
+0.4745 s (23%) simulated in 2m 30s, estimated 8m 3s remaining.
+0.5045 s (25%) simulated in 2m 40s, estimated 7m 55s remaining.
+0.5351 s (26%) simulated in 2m 50s, estimated 7m 46s remaining.
+0.5664 s (28%) simulated in 3m 0s, estimated 7m 36s remaining.
+0.5987 s (29%) simulated in 3m 10s, estimated 7m 25s remaining.
+0.6313 s (31%) simulated in 3m 20s, estimated 7m 14s remaining.
+0.664 s (33%) simulated in 3m 30s, estimated 7m 3s remaining.
+0.6969 s (34%) simulated in 3m 40s, estimated 6m 52s remaining.
+0.7289 s (36%) simulated in 3m 50s, estimated 6m 42s remaining.
+0.7595 s (37%) simulated in 4m 0s, estimated 6m 33s remaining.
+0.7893 s (39%) simulated in 4m 10s, estimated 6m 24s remaining.
+0.8193 s (40%) simulated in 4m 23s, estimated 6m 20s remaining.
+0.8505 s (42%) simulated in 4m 33s, estimated 6m 10s remaining.
+0.8824 s (44%) simulated in 4m 43s, estimated 5m 59s remaining.
+0.9149 s (45%) simulated in 4m 53s, estimated 5m 48s remaining.
+0.9475 s (47%) simulated in 5m 3s, estimated 5m 37s remaining.
+0.9803 s (49%) simulated in 5m 13s, estimated 5m 26s remaining.
+1.0122 s (50%) simulated in 5m 23s, estimated 5m 16s remaining.
+1.043 s (52%) simulated in 5m 33s, estimated 5m 6s remaining.
+1.0731 s (53%) simulated in 5m 43s, estimated 4m 57s remaining.
+1.1035 s (55%) simulated in 5m 53s, estimated 4m 47s remaining.
+1.1346 s (56%) simulated in 6m 3s, estimated 4m 37s remaining.
+1.1665 s (58%) simulated in 6m 13s, estimated 4m 27s remaining.
+1.1983 s (59%) simulated in 6m 23s, estimated 4m 17s remaining.
+1.2304 s (61%) simulated in 6m 33s, estimated 4m 6s remaining.
+1.2629 s (63%) simulated in 6m 43s, estimated 3m 56s remaining.
+1.2955 s (64%) simulated in 6m 53s, estimated 3m 45s remaining.
+1.3283 s (66%) simulated in 7m 3s, estimated 3m 34s remaining.
+1.3601 s (68%) simulated in 7m 13s, estimated 3m 24s remaining.
+1.3909 s (69%) simulated in 7m 23s, estimated 3m 14s remaining.
+1.4209 s (71%) simulated in 7m 33s, estimated 3m 5s remaining.
+1.4513 s (72%) simulated in 7m 43s, estimated 2m 55s remaining.
+1.4822 s (74%) simulated in 7m 53s, estimated 2m 46s remaining.
+1.5141 s (75%) simulated in 8m 3s, estimated 2m 35s remaining.
+1.5466 s (77%) simulated in 8m 13s, estimated 2m 25s remaining.
+1.5792 s (78%) simulated in 8m 23s, estimated 2m 14s remaining.
+1.6119 s (80%) simulated in 8m 33s, estimated 2m 4s remaining.
+1.6385 s (81%) simulated in 8m 47s, estimated 1m 56s remaining.
+1.6699 s (83%) simulated in 8m 57s, estimated 1m 46s remaining.
+1.7001 s (85%) simulated in 9m 7s, estimated 1m 37s remaining.
+1.73 s (86%) simulated in 9m 17s, estimated 1m 27s remaining.
+1.7607 s (88%) simulated in 9m 27s, estimated 1m 17s remaining.
+1.7921 s (89%) simulated in 9m 37s, estimated 1m 7s remaining.
+1.8243 s (91%) simulated in 9m 47s, estimated 57s remaining.
+1.8569 s (92%) simulated in 9m 57s, estimated 46s remaining.
+1.8895 s (94%) simulated in 10m 7s, estimated 36s remaining.
+1.9223 s (96%) simulated in 10m 17s, estimated 25s remaining.
+1.9542 s (97%) simulated in 10m 27s, estimated 15s remaining.
+1.9847 s (99%) simulated in 10m 37s, estimated 5s remaining.
+2. s (100%) simulated in 10m 43s
+findfont: Font family ['Roboto Mono'] not found. Falling back to DejaVu Sans.
+WARNING    /home/nvardala/projects/Python/memstim-hh/run_sim_dumb.py:729: UserWarning: Tight layout not applied. tight_layout cannot make axes height small enough to accommodate all axes decorations
+  tight_layout()
+ [py.warnings]
