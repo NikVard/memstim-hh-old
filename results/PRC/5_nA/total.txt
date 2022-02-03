@@ -1,0 +1,12 @@
+8 : configs/5_nA/off3.json : success
+3 : configs/5_nA/off15.json : success
+11 : configs/5_nA/off9.json : success
+9 : configs/5_nA/off5.json : success
+10 : configs/5_nA/off7.json : success
+5 : configs/5_nA/off19.json : success
+4 : configs/5_nA/off17.json : success
+7 : configs/5_nA/off21.json : success
+2 : configs/5_nA/off13.json : success
+0 : configs/5_nA/off0.json : success
+1 : configs/5_nA/off11.json : success
+6 : configs/5_nA/off1.json : success
