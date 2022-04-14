@@ -1,0 +1,10 @@
+0 : configs/opt_noise_CA1/p00.json : success
+1 : configs/opt_noise_CA1/p01.json : success
+2 : configs/opt_noise_CA1/p02.json : success
+3 : configs/opt_noise_CA1/p03.json : success
+4 : configs/opt_noise_CA1/p04.json : success
+5 : configs/opt_noise_CA1/p05.json : success
+6 : configs/opt_noise_CA1/p06.json : success
+7 : configs/opt_noise_CA1/p07.json : success
+8 : configs/opt_noise_CA1/p08.json : success
+9 : configs/opt_noise_CA1/p09.json : success
