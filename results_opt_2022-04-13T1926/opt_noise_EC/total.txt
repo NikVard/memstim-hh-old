@@ -1,8 +1,0 @@
-1 : configs/opt_noise_EC/p00.json : failure
-3 : configs/opt_noise_EC/p02.json : failure
-0 : configs/opt_noise_EC/default.json : failure
-2 : configs/opt_noise_EC/p01.json : failure
-4 : configs/opt_noise_EC/p03.json : failure
-5 : configs/opt_noise_EC/p04.json : failure
-6 : configs/opt_noise_EC/p05.json : failure
-7 : configs/opt_noise_EC/p06.json : failure
