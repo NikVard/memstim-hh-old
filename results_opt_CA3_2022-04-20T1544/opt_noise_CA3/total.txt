@@ -1,0 +1,15 @@
+0 : configs/opt_noise_CA3/par00.json : success
+1 : configs/opt_noise_CA3/par01.json : success
+2 : configs/opt_noise_CA3/par02.json : success
+3 : configs/opt_noise_CA3/par03.json : success
+4 : configs/opt_noise_CA3/par04.json : success
+5 : configs/opt_noise_CA3/par05.json : success
+6 : configs/opt_noise_CA3/par06.json : success
+7 : configs/opt_noise_CA3/par07.json : success
+8 : configs/opt_noise_CA3/par08.json : success
+9 : configs/opt_noise_CA3/par09.json : success
+10 : configs/opt_noise_CA3/par10.json : success
+11 : configs/opt_noise_CA3/par11.json : success
+12 : configs/opt_noise_CA3/par12.json : success
+13 : configs/opt_noise_CA3/par13.json : success
+14 : configs/opt_noise_CA3/par14.json : success
