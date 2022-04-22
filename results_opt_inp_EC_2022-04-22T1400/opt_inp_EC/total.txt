@@ -1,0 +1,8 @@
+0 : configs/opt_inp_EC/fin00.json : success
+1 : configs/opt_inp_EC/fin01.json : success
+2 : configs/opt_inp_EC/fin02.json : success
+3 : configs/opt_inp_EC/fin03.json : success
+4 : configs/opt_inp_EC/fin04.json : success
+5 : configs/opt_inp_EC/fin05.json : success
+6 : configs/opt_inp_EC/fin06.json : success
+7 : configs/opt_inp_EC/fin07.json : success
