@@ -1,0 +1,16 @@
+0 : configs/opt_conn_CA1_more/par_conn_more00.json : success
+1 : configs/opt_conn_CA1_more/par_conn_more01.json : success
+2 : configs/opt_conn_CA1_more/par_conn_more02.json : success
+3 : configs/opt_conn_CA1_more/par_conn_more03.json : success
+4 : configs/opt_conn_CA1_more/par_conn_more04.json : success
+5 : configs/opt_conn_CA1_more/par_conn_more05.json : success
+6 : configs/opt_conn_CA1_more/par_conn_more06.json : success
+7 : configs/opt_conn_CA1_more/par_conn_more07.json : success
+8 : configs/opt_conn_CA1_more/par_conn_more08.json : success
+9 : configs/opt_conn_CA1_more/par_conn_more09.json : success
+10 : configs/opt_conn_CA1_more/par_conn_more10.json : success
+11 : configs/opt_conn_CA1_more/par_conn_more11.json : success
+12 : configs/opt_conn_CA1_more/par_conn_more12.json : success
+13 : configs/opt_conn_CA1_more/par_conn_more13.json : success
+14 : configs/opt_conn_CA1_more/par_conn_more14.json : success
+15 : configs/opt_conn_CA1_more/par_conn_more15.json : success
