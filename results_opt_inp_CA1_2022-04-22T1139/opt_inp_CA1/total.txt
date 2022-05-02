@@ -1,7 +1,0 @@
-0 : configs/opt_inp_CA1/par_inp00.json : success
-1 : configs/opt_inp_CA1/par_inp01.json : success
-2 : configs/opt_inp_CA1/par_inp02.json : success
-3 : configs/opt_inp_CA1/par_inp03.json : success
-4 : configs/opt_inp_CA1/par_inp04.json : success
-5 : configs/opt_inp_CA1/par_inp05.json : success
-6 : configs/opt_inp_CA1/par_inp06.json : success

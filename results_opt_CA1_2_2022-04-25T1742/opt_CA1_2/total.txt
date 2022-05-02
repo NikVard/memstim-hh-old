@@ -1,9 +1,0 @@
-0 : configs/opt_CA1_2/p00.json : success
-1 : configs/opt_CA1_2/p01.json : success
-2 : configs/opt_CA1_2/p02.json : success
-3 : configs/opt_CA1_2/p03.json : success
-4 : configs/opt_CA1_2/p04.json : success
-5 : configs/opt_CA1_2/p05.json : success
-6 : configs/opt_CA1_2/p06.json : success
-7 : configs/opt_CA1_2/p07.json : success
-8 : configs/opt_CA1_2/p08.json : success
